@@ -1,0 +1,13 @@
+http://localhost:5551/wps?
+
+service=WPS&
+
+request=Execute&
+
+version=1.0.0&
+
+identifier=area&  
+
+DATAINPUTS=layer=@xlink:href=http://172.31.41.229:8080/PyWPS/Data/mygeodata/area.gml&  
+
+storeExecuteResponse=true
